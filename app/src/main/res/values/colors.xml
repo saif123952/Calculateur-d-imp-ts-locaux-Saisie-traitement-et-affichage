@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary_brand">#2E7D32</color> <!-- A green shade for "tax" or "money" -->
+    <color name="secondary_brand">#F9A825</color> <!-- A contrasting amber -->
+    <color name="background_light">#F5F5F5</color>
+    <color name="text_main">#212121</color>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/background_light"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titre_ecran"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_brand"
+        android:layout_marginBottom="32dp" />
+
+    <EditText
+        android:id="@+id/edit_surface_m2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_surface"
+        android:inputType="numberDecimal"
+        android:importantForAutofill="no"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/edit_nb_pieces"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_pieces"
+        android:inputType="number"
+        android:importantForAutofill="no"
+        android:layout_marginBottom="16dp" />
+
+    <CheckBox
+        android:id="@+id/cb_has_piscine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_piscine"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btn_run_calculation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texte_bouton"
+        android:backgroundTint="@color/primary_brand"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/label_resultat_estimation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/text_main"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center" />
+
+</LinearLayout>

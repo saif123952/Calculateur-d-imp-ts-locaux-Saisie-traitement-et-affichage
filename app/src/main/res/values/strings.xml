@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Simulateur Fiscal</string>
+    <string name="titre_ecran">Calcul de la Taxe Foncière</string>
+    <string name="hint_surface">Dimension surface (en m²)</string>
+    <string name="hint_pieces">Nombre de pièces totales</string>
+    <string name="label_piscine">La propriété inclut une piscine</string>
+    <string name="texte_bouton">Calculer mon impôt</string>
+    <string name="resultat_prefixe">Montant estimé : </string>
+    <string name="unite_monetaire"> DH</string>
+    <string name="erreur_saisie">Veuillez saisir des valeurs valides.</string>
+</resources>
