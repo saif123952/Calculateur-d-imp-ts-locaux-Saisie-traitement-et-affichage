@@ -3,7 +3,8 @@
 ## Description
 Cette application Android permet d'estimer rapidement le montant des impôts locaux pour une propriété. Elle a été développée dans le cadre d'un laboratoire de développement mobile.
 
-![Capture d'écran de l'application](screenshot.png)
+<img width="412" height="827" alt="2" src="https://github.com/user-attachments/assets/8599c768-abc4-43be-b6ce-ebe85b881dc4" />
+
 
 ## Fonctionnalités
 - Saisie de la surface habitable en m².
